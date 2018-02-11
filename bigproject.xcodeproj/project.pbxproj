@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE300A5A2030547B00B11917 /* View3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE300A582030547B00B11917 /* View3ViewController.swift */; };
+		CE300A5B2030547B00B11917 /* View3ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE300A592030547B00B11917 /* View3ViewController.xib */; };
 		EA7030922030534C005156AB /* View5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7030902030534C005156AB /* View5ViewController.swift */; };
 		EA7030932030534C005156AB /* View5ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA7030912030534C005156AB /* View5ViewController.xib */; };
 		EAEA427C2030483100DF28A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEA427B2030483100DF28A5 /* AppDelegate.swift */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE300A582030547B00B11917 /* View3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View3ViewController.swift; sourceTree = "<group>"; };
+		CE300A592030547B00B11917 /* View3ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View3ViewController.xib; sourceTree = "<group>"; };
 		EA7030902030534C005156AB /* View5ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View5ViewController.swift; sourceTree = "<group>"; };
 		EA7030912030534C005156AB /* View5ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View5ViewController.xib; sourceTree = "<group>"; };
 		EAEA42782030483100DF28A5 /* bigproject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bigproject.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -105,6 +109,8 @@
 				EAEA427D2030483100DF28A5 /* ViewController.swift */,
 				EAEA427F2030483100DF28A5 /* Main.storyboard */,
 				EA7030902030534C005156AB /* View5ViewController.swift */,
+				CE300A582030547B00B11917 /* View3ViewController.swift */,
+				CE300A592030547B00B11917 /* View3ViewController.xib */,
 				EA7030912030534C005156AB /* View5ViewController.xib */,
 				EAEA42822030483100DF28A5 /* Assets.xcassets */,
 				EAEA42842030483100DF28A5 /* LaunchScreen.storyboard */,
@@ -242,6 +248,7 @@
 				EAEA42832030483100DF28A5 /* Assets.xcassets in Resources */,
 				EAEA42812030483100DF28A5 /* Main.storyboard in Resources */,
 				EA7030932030534C005156AB /* View5ViewController.xib in Resources */,
+				CE300A5B2030547B00B11917 /* View3ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA7030922030534C005156AB /* View5ViewController.swift in Sources */,
+				CE300A5A2030547B00B11917 /* View3ViewController.swift in Sources */,
 				EAEA427E2030483100DF28A5 /* ViewController.swift in Sources */,
 				EAEA427C2030483100DF28A5 /* AppDelegate.swift in Sources */,
 			);

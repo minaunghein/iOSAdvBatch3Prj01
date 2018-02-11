@@ -20,6 +20,8 @@ class ViewController: UIViewController {
     }
 
     @IBAction func gotoScreen3(_ sender: Any) {
+        let view3VC = View5ViewController(nibName: "View3ViewController", bundle: nil)
+        present(view3VC, animated: true , completion: nil)
 
     }
 
