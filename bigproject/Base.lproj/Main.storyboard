@@ -29,6 +29,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SFp-6P-aNQ">
                                 <rect key="frame" x="140" y="206" width="105" height="123"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.50270399751088468" green="1" blue="0.58022456341470718" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="View 2"/>
                                 <connections>
                                     <action selector="gotoScreen2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="q2V-2h-PoU"/>

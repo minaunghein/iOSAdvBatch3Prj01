@@ -1,18 +1,18 @@
 //
-//  View4ViewController.swift
+//  View1ViewController.swift
 //  bigproject
 //
-//  Created by Saw Pyae Yadanar on 11/2/18.
+//  Created by mac on 2018/02/11.
 //  Copyright © 2018 Min Aung Hein. All rights reserved.
 //
 
 import UIKit
 
-class View4ViewController: UIViewController {
+class View1ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = UIColor.cyan
+
         // Do any additional setup after loading the view.
     }
 
