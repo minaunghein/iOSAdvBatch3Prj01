@@ -16,7 +16,8 @@ class ViewController: UIViewController {
     }
 
     @IBAction func gotoScreen2(_ sender: Any) {
-
+        let view2VC = View5ViewController(nibName: "View2ViewController", bundle: nil)
+        present(view2VC, animated: true , completion: nil)
     }
 
     @IBAction func gotoScreen3(_ sender: Any) {
