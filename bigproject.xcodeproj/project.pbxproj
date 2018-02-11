@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040A15DA203059E8007E1E99 /* View1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040A15D8203059E8007E1E99 /* View1ViewController.swift */; };
+		040A15DB203059E8007E1E99 /* View1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 040A15D9203059E8007E1E99 /* View1ViewController.xib */; };
 		4903903C203054AF000DA7BE /* View4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4903903A203054AF000DA7BE /* View4ViewController.swift */; };
 		4903903D203054AF000DA7BE /* View4ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4903903B203054AF000DA7BE /* View4ViewController.xib */; };
 		CE300A5E2030568B00B11917 /* View3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE300A5C2030568A00B11917 /* View3ViewController.swift */; };
@@ -42,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		040A15D8203059E8007E1E99 /* View1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View1ViewController.swift; sourceTree = "<group>"; };
+		040A15D9203059E8007E1E99 /* View1ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View1ViewController.xib; sourceTree = "<group>"; };
 		4903903A203054AF000DA7BE /* View4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View4ViewController.swift; sourceTree = "<group>"; };
 		4903903B203054AF000DA7BE /* View4ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View4ViewController.xib; sourceTree = "<group>"; };
 		CE300A5C2030568A00B11917 /* View3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View3ViewController.swift; sourceTree = "<group>"; };
@@ -127,6 +131,8 @@
 				EAEA42822030483100DF28A5 /* Assets.xcassets */,
 				EAEA42842030483100DF28A5 /* LaunchScreen.storyboard */,
 				EAEA42872030483200DF28A5 /* Info.plist */,
+				040A15D8203059E8007E1E99 /* View1ViewController.swift */,
+				040A15D9203059E8007E1E99 /* View1ViewController.xib */,
 			);
 			path = bigproject;
 			sourceTree = "<group>";
@@ -259,6 +265,7 @@
 				EAEA42862030483100DF28A5 /* LaunchScreen.storyboard in Resources */,
 				EAEA42832030483100DF28A5 /* Assets.xcassets in Resources */,
 				EA703096203057E6005156AB /* View2ViewController.xib in Resources */,
+				040A15DB203059E8007E1E99 /* View1ViewController.xib in Resources */,
 				4903903D203054AF000DA7BE /* View4ViewController.xib in Resources */,
 				CE300A5F2030568B00B11917 /* View3ViewController.xib in Resources */,
 				EAEA42812030483100DF28A5 /* Main.storyboard in Resources */,
@@ -292,6 +299,7 @@
 				CE300A5E2030568B00B11917 /* View3ViewController.swift in Sources */,
 				4903903C203054AF000DA7BE /* View4ViewController.swift in Sources */,
 				EA703097203057E6005156AB /* View2ViewController.swift in Sources */,
+				040A15DA203059E8007E1E99 /* View1ViewController.swift in Sources */,
 				EAEA427C2030483100DF28A5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
