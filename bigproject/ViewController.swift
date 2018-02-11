@@ -28,7 +28,8 @@ class ViewController: UIViewController {
     }
 
     @IBAction func gotoScreen5(_ sender: Any) {
-
+        let view5VC = View5ViewController(nibName: "View5ViewController", bundle: nil)
+        present(view5VC, animated: true , completion: nil)
     }
     override func viewDidLoad() {
         super.viewDidLoad()
