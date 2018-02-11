@@ -12,7 +12,8 @@ class ViewController: UIViewController {
 
 
     @IBAction func gotoScreen1(_ sender: Any) {
-
+        let view1VC = View5ViewController(nibName: "View1ViewController", bundle: nil)
+        self.navigationController?.pushViewController(view1VC, animated: true)
     }
 
     @IBAction func gotoScreen2(_ sender: Any) {
