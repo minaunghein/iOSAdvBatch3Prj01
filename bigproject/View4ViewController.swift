@@ -12,7 +12,7 @@ class View4ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = UIColor.purple
+        view.backgroundColor = UIColor.cyan
         // Do any additional setup after loading the view.
     }
 
