@@ -17,23 +17,24 @@ class ViewController: UIViewController {
 
     @IBAction func gotoScreen2(_ sender: Any) {
         let view2VC = View5ViewController(nibName: "View2ViewController", bundle: nil)
-        present(view2VC, animated: true , completion: nil)
+        self.navigationController?.pushViewController(view2VC, animated: true)
     }
 
     @IBAction func gotoScreen3(_ sender: Any) {
         let view3VC = View5ViewController(nibName: "View3ViewController", bundle: nil)
-        present(view3VC, animated: true , completion: nil)
+        self.navigationController?.pushViewController(view3VC, animated: true )
 
     }
 
     @IBAction func gotoScreen4(_ sender: Any) {
        let view4VC = View4ViewController(nibName: "View4ViewController", bundle: nil)
-        present(view4VC, animated: true, completion: nil)
+        //self.navigationController?.pushViewController(view4VC, animated: true, completion: nil)
+        self.navigationController?.pushViewController(view4VC, animated: true )
     }
 
     @IBAction func gotoScreen5(_ sender: Any) {
         let view5VC = View5ViewController(nibName: "View5ViewController", bundle: nil)
-        present(view5VC, animated: true , completion: nil)
+        self.navigationController?.pushViewController(view5VC, animated: true )
     }
     override func viewDidLoad() {
         super.viewDidLoad()

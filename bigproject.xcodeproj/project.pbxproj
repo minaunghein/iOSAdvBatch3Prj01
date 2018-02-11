@@ -13,6 +13,8 @@
 		CE300A5F2030568B00B11917 /* View3ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE300A5D2030568A00B11917 /* View3ViewController.xib */; };
 		EA7030922030534C005156AB /* View5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7030902030534C005156AB /* View5ViewController.swift */; };
 		EA7030932030534C005156AB /* View5ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA7030912030534C005156AB /* View5ViewController.xib */; };
+		EA703096203057E6005156AB /* View2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA703094203057E5005156AB /* View2ViewController.xib */; };
+		EA703097203057E6005156AB /* View2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA703095203057E6005156AB /* View2ViewController.swift */; };
 		EAEA427C2030483100DF28A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEA427B2030483100DF28A5 /* AppDelegate.swift */; };
 		EAEA427E2030483100DF28A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEA427D2030483100DF28A5 /* ViewController.swift */; };
 		EAEA42812030483100DF28A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAEA427F2030483100DF28A5 /* Main.storyboard */; };
@@ -46,6 +48,8 @@
 		CE300A5D2030568A00B11917 /* View3ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View3ViewController.xib; sourceTree = "<group>"; };
 		EA7030902030534C005156AB /* View5ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View5ViewController.swift; sourceTree = "<group>"; };
 		EA7030912030534C005156AB /* View5ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View5ViewController.xib; sourceTree = "<group>"; };
+		EA703094203057E5005156AB /* View2ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View2ViewController.xib; sourceTree = "<group>"; };
+		EA703095203057E6005156AB /* View2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View2ViewController.swift; sourceTree = "<group>"; };
 		EAEA42782030483100DF28A5 /* bigproject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bigproject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAEA427B2030483100DF28A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EAEA427D2030483100DF28A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -118,6 +122,8 @@
 				CE300A5D2030568A00B11917 /* View3ViewController.xib */,
 				EA7030902030534C005156AB /* View5ViewController.swift */,
 				EA7030912030534C005156AB /* View5ViewController.xib */,
+				EA703095203057E6005156AB /* View2ViewController.swift */,
+				EA703094203057E5005156AB /* View2ViewController.xib */,
 				EAEA42822030483100DF28A5 /* Assets.xcassets */,
 				EAEA42842030483100DF28A5 /* LaunchScreen.storyboard */,
 				EAEA42872030483200DF28A5 /* Info.plist */,
@@ -252,6 +258,7 @@
 			files = (
 				EAEA42862030483100DF28A5 /* LaunchScreen.storyboard in Resources */,
 				EAEA42832030483100DF28A5 /* Assets.xcassets in Resources */,
+				EA703096203057E6005156AB /* View2ViewController.xib in Resources */,
 				4903903D203054AF000DA7BE /* View4ViewController.xib in Resources */,
 				CE300A5F2030568B00B11917 /* View3ViewController.xib in Resources */,
 				EAEA42812030483100DF28A5 /* Main.storyboard in Resources */,
@@ -280,11 +287,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE8D4D762030782300A0DDA3 /* View2ViewController.swift in Sources */,
 				EA7030922030534C005156AB /* View5ViewController.swift in Sources */,
 				EAEA427E2030483100DF28A5 /* ViewController.swift in Sources */,
 				CE300A5E2030568B00B11917 /* View3ViewController.swift in Sources */,
 				4903903C203054AF000DA7BE /* View4ViewController.swift in Sources */,
+				EA703097203057E6005156AB /* View2ViewController.swift in Sources */,
 				EAEA427C2030483100DF28A5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
