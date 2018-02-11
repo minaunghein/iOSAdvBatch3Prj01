@@ -21,11 +21,14 @@ class ViewController: UIViewController {
     }
 
     @IBAction func gotoScreen3(_ sender: Any) {
+        let view3VC = View5ViewController(nibName: "View3ViewController", bundle: nil)
+        present(view3VC, animated: true , completion: nil)
 
     }
 
     @IBAction func gotoScreen4(_ sender: Any) {
-
+       let view4VC = View4ViewController(nibName: "View4ViewController", bundle: nil)
+        present(view4VC, animated: true, completion: nil)
     }
 
     @IBAction func gotoScreen5(_ sender: Any) {
